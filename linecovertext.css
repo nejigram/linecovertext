@@ -1,0 +1,70 @@
+.linecovertext_1 span{
+    color:#f6d5c5;
+    background-color:#c5395a;
+
+
+/*    animation-name:linecovertext_1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+*/
+}
+.open_1 .wrap{
+    width: 100% !important;
+}
+
+.linecoverimg_200 .wrap{
+    transition: width 2s ease-out;
+    transition-delay: .5s;
+    height:200px;
+    width:0%;
+    overflow:hidden;
+}
+.linecovertext_1 .wrap{
+    transition: width .5s ease-out;
+    transition-delay: .5s;
+    overflow: hidden;
+    width:0%;
+    white-space: nowrap;
+}
+
+.linecovertext_1 .wrap+.wrap{
+    transition-delay: .7s;
+
+}
+.linecovertext_1 .wrap+.wrap+.wrap{
+    transition-delay: .9s;
+
+}
+.linecovertext_1 .wrap+.wrap+.wrap+.wrap{
+    transition-delay: 1.1s;
+
+}
+.linecovertext_2 .wrap{
+    position:relative;
+    display:table;
+    overflow:hidden;
+}
+.linecovertext_2 .wrap div{
+    transition: all .5s ease-out;
+    transition-delay: .5s;
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color:#000;
+    left:0%;
+}
+.open_2 .wrap div{
+    left: 100%;
+}
+.linecovertext_2 .wrap+.wrap div{
+    transition-delay: .7s;
+
+}
+.linecovertext_2 .wrap+.wrap+.wrap div{
+    transition-delay: .9s;
+
+}
+.linecovertext_2 .wrap+.wrap+.wrap+.wrap div{
+    transition-delay: 1.1s;
+
+}
